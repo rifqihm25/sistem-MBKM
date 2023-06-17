@@ -1,0 +1,47 @@
+/* .user-block {
+    float: left;
+}
+
+.user-block img {
+    float: left;
+    height: 200px;
+    width: 172px;
+    margin: 5%;
+}
+
+.user-block.user-block-sm img {
+    width: 1.875rem;
+    height: 1.875rem;
+} */
+
+.user-user {
+    /* float: left; */
+    justify-content: space-evenly;
+}
+
+.user-user .img-view {
+    /* float: left; */
+    justify-content: center;
+    height: 700px;
+    width: 460px;
+}
+
+.user-user.user-user-sm .img-view {
+    width: 1.875rem;
+    height: 1.875rem;
+}
+/*button upload image employee profile */
+.image-profile {
+    display: none;
+}
+
+.custom-file-upload {
+    border: none;
+    border-radius: 6px;
+    background-color: #7367f0;
+    display: inline-block;
+    padding: 10px 12px;
+    color: white;
+    cursor: pointer;
+    margin: auto;
+}

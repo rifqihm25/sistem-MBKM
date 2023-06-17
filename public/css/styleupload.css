@@ -1,0 +1,252 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+h2 {
+    color: rgb(255, 0, 0);
+    font-weight: bold;
+    -webkit-text-stroke: 2px;
+}
+
+.fa-solid {
+    color: #000000;
+}
+
+label {
+    color: black;
+    font-weight: bold;
+}
+
+.btn {
+    background-color: rgb(238, 151, 0);
+    color: white;
+}
+
+.btn:hover {
+    background-color: rgb(216, 0, 0);
+    color: white;
+}
+
+.btn-upload {
+    width: 185px;
+    height: 35px;
+    margin: 20px 10px 0;
+    border: none;
+    border-radius: 8px;
+    background: rgb(0, 0, 118);
+    color: white;
+}
+
+.btn-upload:hover {
+    background-color: rgb(216, 0, 0);
+}
+
+.footer {
+    border-top: 1px dashed black;
+    bottom: 0;
+    margin-top: 10%;
+    width: 100%;
+    text-align: left;
+    font: bold 16px;
+    padding: 50px 50px 60px 50px;
+}
+
+.footer .footer-left,
+.footer .footer-center,
+.footer .footer-right {
+    display: inline-block;
+    vertical-align: top;
+}
+
+/* Footer left */
+.footer .footer-left {
+    width: 30%;
+}
+
+.footer h3 {
+    color: #000000;
+    font-size: 21px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.footer h3 span {
+    color: #000000;
+}
+
+/* Footer links */
+.footer .footer-links {
+    color: #000000;
+    margin: 20px 0 12px;
+    text-align: left;
+}
+
+.footer .footer-links a {
+    display: inline-block;
+    line-height: 1.8;
+    text-decoration: none;
+    color: inherit;
+}
+
+.footer .footer-company-name {
+    color: #000000;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+    text-align: left;
+}
+
+/* Footer center */
+.footer .footer-center {
+    width: 35%;
+}
+
+.footer .footer-center i {
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 25px;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    line-height: 42px;
+    margin: 10px 15px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.footer .footer-center i.fa-solid {
+    font-size: 17px;
+    line-height: 38px;
+}
+
+.footer .footer-center p {
+    display: inline-block;
+    color: #000000;
+    vertical-align: auto;
+    margin: 0;
+    text-align: left;
+}
+
+.footer .footer-center p span {
+    display: block;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 2;
+    text-align: left;
+}
+
+.footer .footer-center p a {
+    color: #000000;
+    text-decoration: none;
+    text-align: left;
+}
+
+/* Footer right */
+.footer .footer-right {
+    width: 30%;
+}
+
+.footer .footer-company-about {
+    line-height: 20px;
+    color: #000000;
+    font-size: 13px;
+    font-weight: normal;
+    margin: 0;
+    text-align: left;
+}
+
+.footer .footer-company-about span {
+    display: block;
+    color: #000000;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.footer .footer-icons {
+    margin-top: 25px;
+    text-align: left;
+}
+
+.footer .footer-icons a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    background-color: #000000;
+    border-radius: 2px;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 35px;
+    margin-right: 3px;
+    margin-bottom: 5px;
+}
+
+.footer .footer-icons a:hover {
+    background-color: #ff0000;
+}
+
+.footer-links a:hover {
+    color: #ff0000;
+}
+
+.footer h1 {
+    color: red;
+    text-align: left;
+    font-size: 20px;
+    justify-items: center;
+}
+
+.footer p {
+    color: red;
+    text-align: center;
+}
+
+@media screen and (max-width: 760px) {
+    .card-column {
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+    }
+    .content {
+        width: 100%;
+        display: block;
+        margin-top: 60px;
+    }
+    .card {
+        width: auto;
+        display: block;
+    }
+    .card-img {
+        margin: 50px 0;
+    }
+
+    .footer {
+        width: auto;
+        display: block;
+        margin-top: 10%;
+    }
+
+    .footer .footer-left,
+    .footer .footer-center,
+    .footer .footer-right {
+        display: block;
+        width: 100%;
+        margin-bottom: 40px;
+        text-align: left;
+    }
+    .footer .footer-center i {
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 1500px) {
+    .card-column {
+        margin-bottom: 20px;
+    }
+}
